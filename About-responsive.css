@@ -1,0 +1,152 @@
+/* Mobile Responsive */
+ @media (max-width: 500px) {
+    html,body{
+        font-size: 10.9px;
+        width: 500px;
+    }
+
+    .about{
+        padding: 60px 20px;
+        height: 200px;
+    }
+
+    .sec-sec-content{
+        height: 450px;
+    }
+
+    .sec-sec-content .h1{
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .p1{
+        margin: 10px 80px;
+    }
+
+    .person1{
+        padding: 10px;
+        margin: 5px 0px;
+    }
+    .p2{
+        margin: 10px 80px;
+    }
+
+    .person2{
+        padding: 10px;
+        margin: 5px 0px;
+    }
+
+    .footer{
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+/* Tablet Responsive */
+ @media (min-width: 501px) and (max-width: 746px) {
+    html,body{
+        font-size: 12px;
+    }
+
+    .about{
+        padding: 60px 20px;
+        height: 200px;
+    }
+
+    .sec-sec-content{
+        height: 450px;
+    }
+
+    .sec-sec-content .h1{
+        font-size: 25px;
+        padding: 10px 110px;
+        text-align: unset;
+    }
+
+    .p1{
+        margin: 10px 100px;
+    }
+
+    .person1{
+        padding: 10px;
+        margin: 5px 0px;
+    }
+    .p2{
+        margin: 10px 100px;
+    }
+
+    .person2{
+        padding: 10px;
+        margin: 0px 0px;
+    }
+
+    .footer{
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+/* NormalScreen Responsive */
+ @media (min-width: 747px) and (max-width: 1200px) {
+    html,body{
+        font-size: 12px;
+    }
+
+    .about{
+        padding: 60px 20px;
+        height: 200px;
+    }
+
+    .sec-sec-content{
+        height: 450px;
+    }
+
+    .sec-sec-content .h1{
+        font-size: 25px;
+        padding: 10px 110px;
+        text-align: unset;
+    }
+
+    .p1{
+        margin: 10px 100px;
+    }
+
+    .person1{
+        padding: 10px;
+        margin: 5px 0px;
+    }
+    .p2{
+        margin: 10px 100px;
+    }
+
+    .person2{
+        padding: 10px;
+        margin: 0px 0px;
+    }
+
+    .footer{
+        font-size: 11px;
+        padding: 10px;
+    }
+}
+
+/* WIdeScreen Responsive */
+@media (min-width: 1201px) {
+    .sec-sec-content .h1{
+        padding: 10px 50px;
+        text-align: unset;
+    }
+
+    .p1{
+        margin: 10px 50px;
+    }
+
+    .p2{
+        margin: 10px 50px;
+    }
+
+    .footer{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
